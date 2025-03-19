@@ -51,11 +51,3 @@ Uses **Eureka Server** to register and manage multiple instances of each microse
 - **Global Exception Handling** improves error handling.
 - **Role-Based Access Control** can be implemented for enhanced security.
 
-## Future Enhancements
-- Implement **Role-Based Access Control (RBAC)**.
-- Add **Caching** for improved performance.
-- Implement **Monitoring & Logging** using ELK stack.
-
-## License
-This project is open-source and available under the MIT License.
-
