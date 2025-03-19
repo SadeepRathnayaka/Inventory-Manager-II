@@ -49,5 +49,4 @@ Uses **Eureka Server** to register and manage multiple instances of each microse
 ## Security
 - **JWT Authentication** ensures secure communication.
 - **Global Exception Handling** improves error handling.
-- **Role-Based Access Control** can be implemented for enhanced security.
 
