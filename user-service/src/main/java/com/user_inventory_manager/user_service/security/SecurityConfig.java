@@ -41,11 +41,11 @@ public class SecurityConfig {
                             .anyRequest()
                             .authenticated()
             )
-                .httpBasic(withDefaults())  // Login form for REST APIs
+                .httpBasic(withDefaults())    // Enables HTTP Basic Authentication in RESTAPIs, where users authenticate with a username and password in the request headers.
                 .formLogin(httpSecurityFormLoginConfigurer -> httpSecurityFormLoginConfigurer
                         .loginPage("/login")
                         .permitAll()
-                )
+                )                           //  Specifies a custom WEB login page at /login, allowing all users to access it without authentication.
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
